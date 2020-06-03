@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+.font-logo{
+    font-family: 'Sriracha', cursive;
+
+}
+
+.div-center{
+    width: fit-content;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-center #sugestao{
+    font-size: 40px;
+    color: #E60C14;
+    max-width: 800px;
+    text-align: center;
+}
+
+.logo{
+    float: left;
+}
+
+.titulo{
+    float: left;
+    color: #E60C14;
+}
+
+.content{
+    width: 100%;
+}
+
+.botao-gerar{
+    padding: 11px 22px;
+    font-size: 20px;
+    background: #E60C14;
+    color: #fff;
+    border: none;
+    /* pointer-events: painted; */
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao-gerar:hover{
+    background: #ff454c;
+    transition: 0.5s;
+}
